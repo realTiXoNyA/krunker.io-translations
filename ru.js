@@ -61,7 +61,7 @@ generic.accuracy Аккуратность
 player.waiting Ожидание игроков
 player.died Вы умерли
 player.killed Убиты
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} в {1} серии убийств
 player.inactive Удален за неактивность
 player.disconnect Отключен от сервера
 timer.end Следующий раунд через {0}
@@ -89,12 +89,12 @@ settings.local.region Регион по умолчанию
 settings.local.lang Язык
 settings.network.header Настройки сети
 settings.network.netRerouting Автоматическая маршрутизация (Влияет на пинг)
-settings.network.netRate Network Rate (Hz)
+settings.network.netRate Скорость сети (Hz)
 settings.network.lagComp Компенсация задержки
 settings.popup.header Всплывающие окна
 settings.popup.freeKRPop Показывать окно бесплатных KR
 settings.experimental.header Экспериментальные
-settings.experimental.optNetwork Optimized Networking
+settings.experimental.optNetwork Оптимизация сети
 settings.experimental.aimFreezeFix Исправление лагов при прицеливании
 settings.experimental.mouseFlickFix Исправление случайных фликов мыши
 settings.experimental.shaderRendering Дублирующий рендеринг
@@ -111,11 +111,11 @@ settings.client.angleBackend Графический модуль ANGLE
 settings.client.colorProfile Цветовой профиль
 settings.dev.header Настройки разработчика
 settings.dev.forceUpdate Принудительное обновление скинов
-settings.dev.forceRegen Всегда лечить игрока
+settings.dev.forceRegen Всегда регенерировать
 settings.dev.extraBan Дополнительная информация о бане
 settings.chat.header Чат
 settings.chat.chat Показывать окно чата
-settings.chat.chat.all Всегда
+settings.chat.chat.all Всё
 settings.chat.chat.focus Пока сфокусирован
 settings.chat.messages Показывать сообщения игроков
 settings.chat.unboxings Показывать открытие спинов
@@ -176,17 +176,17 @@ settings.interface.oldBrowser Использовать старый браузе
 settings.interface.rarityanim Отключить анимацию редкости
 settings.interface.showPfp Показывать изображение профиля
 settings.interface.showTradeMsg Показывать сообщения трейдов
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.hideNonTrade Спрятать нетрейдабельные скины
 settings.interface.hp Динамическая полоса здоровья
 settings.interface.dmgScale Масштаб информации о наносимом уроне
-settings.interface.killf Показывать убийства подряд
+settings.interface.killf Показывать серию убийств
 settings.interface.ping Показывать PING
 settings.interface.net-stats Показывать сетевую статистику
 settings.interface.fps Показывать FPS
 settings.interface.deaths Показывать счетчик смертей
 settings.interface.kd Показывать соотношение убийств к смертям
 settings.interface.kills Показывать счетчик убийств
-settings.interface.streak Показывать счетчик убийств подряд
+settings.interface.streak Показывать счетчик серии убийств
 settings.interface.score Показывать количество набранных очков
 settings.interface.spectators Показывать счетчик наблюдающих
 settings.interface.speed Показывать скорость движения
@@ -210,12 +210,12 @@ settings.interface.nametagStyle.all Все
 settings.interface.healthNum Счетчик количества здоровья
 settings.interface.healthColT Цвет уровня здоровья члена команды
 settings.interface.healthColE Цвет уровня здоровья противника
-settings.interface.xpBarCol Цвет панели опыта
-settings.interface.xpBarCol2 XP Bar Color 2
+settings.interface.xpBarCol Цвет опыта
+settings.interface.xpBarCol2 Второй цвет опыта
 settings.interface.xpBarOpac Непрозрачность панели опыта
 settings.crosshair.header Прицел
 settings.crosshair.type Тип
-settings.crosshair.type.1 Dynamic
+settings.crosshair.type.1 Динамический
 settings.crosshair.type.2 Пользовательский
 settings.crosshair.type.3 Многослойный
 settings.crosshair.type.4 Изображение
@@ -228,8 +228,8 @@ settings.crosshair.style.3 Полый квадрат
 settings.crosshair.style.4 Сплошной квадрат
 settings.crosshair.image Изображение
 settings.crosshair.image.paste Изображение перекрестия
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width Ширина изображения
+settings.crosshair.image.height Высота изображения
 settings.crosshair.always Всегда показывать
 settings.crosshair.color Цвет
 settings.crosshair.shadow.color Цвет тени
@@ -238,33 +238,33 @@ settings.crosshair.size Размер
 settings.crosshair.thickness Толщина
 settings.crosshair.gap Пространство
 settings.crosshair.dot Точка
-settings.crosshair.opacity.use Использовать настраиваемую прозрачность
+settings.crosshair.opacity.use Использовать пользовательскую прозрачность
 settings.crosshair.opacity.custom Пользовательская прозрачность
-settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.header Прицел (Метание)
+settings.crosshairm.type Тип
+settings.crosshairm.type.1 Форма
+settings.crosshairm.type.2 Изображение
+settings.crosshairm.type.3 Точность
+settings.crosshairm.style Стиль
+settings.crosshairm.style.0 Пересекать
+settings.crosshairm.style.1 Полый круг
+settings.crosshairm.style.2 Сплошной круг
+settings.crosshairm.style.3 Полый квадрат
+settings.crosshairm.style.4 Сплошной квадрат
+settings.crosshairm.image Изображение
+settings.crosshairm.image.paste Изображение прицела
+settings.crosshairm.image.width Ширина изображения
+settings.crosshairm.image.height Высота изображения
+settings.crosshairm.always Всегда показывать
+settings.crosshairm.color Цвет
+settings.crosshairm.shadow.color Цвет тени
+settings.crosshairm.shadow.thickness Толщина тени
+settings.crosshairm.size Размер
+settings.crosshairm.thickness Толщина
+settings.crosshairm.gap Пробел
+settings.crosshairm.dot Точка
+settings.crosshairm.opacity.use Использовать пользовательскую непрозрачность
+settings.crosshairm.opacity.custom Пользовательская непрозрачность
 settings.hitmarker.header Индикатор попадания
 settings.hitmarker.color Цвет
 settings.hitmarker.kcolor Цвет при убийстве
@@ -289,19 +289,19 @@ settings.gameprivacy.header Конфиденциальность геймпле�
 settings.gameprivacy.streamer Режим стримера
 settings.gameprivacy.anon Анонимный режим
 settings.gameprivacy.hideGameTitle Скрыть название игры
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.verified Отображать значок верификации
+settings.gameprivacy.premium Отображать премиум значок
+settings.gameprivacy.partner Отображать партнерский значок
+settings.gameprivacy.rank Отображать значок ранкеда
 settings.gameplay.header Геймплей
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameplay.gpSetts Настройки геймплея
 settings.gameplay.sensitivityX Чувствительность по оси X
 settings.gameplay.sensitivityY Чувствительность по оси Y
 settings.gameplay.aimsensX Чувствительность по оси X в прицеливании
 settings.gameplay.aimsensY Чувствительность по оси Y в прицеливании
 settings.gameplay.challenge Сложный режим
 settings.gameplay.invert Инвертировать движения по оси Y
-settings.gameplay.onkillS On Kill
+settings.gameplay.onkillS После смерти
 settings.gameplay.scrollDir Направление прокрутки колеса мыши
 settings.controller.header Геймпад
 settings.controller.sensitivityX Чувствительность геймпада по оси X
@@ -327,8 +327,8 @@ settings.audio.header Аудио
 settings.audio.sound Общий Звук
 settings.audio.ambient Окружающие Звуки
 settings.audio.voice Звук Голосовой Связи
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
+settings.audio.input Автовключение микрофона
+settings.audio.mic Громкость микрофона
 settings.audio.weps Звуки Оружия
 settings.audio.player Звуки Игроков
 settings.audio.skin Косметические Звуки
@@ -336,10 +336,10 @@ settings.audio.ui Звуки в Меню
 settings.audio.asset Звуки Ассетов
 settings.audio.dialogue Звуки Действий
 settings.viewmodel.header Вид Моделей
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.vmSetts Настройки модели обзора
 settings.viewmodel.fov Угол Обзора
 settings.viewmodel.fps Угол Обзора Оружия
-settings.viewmodel.bobbing Анимация "подпрыгивания" оружия
+settings.viewmodel.bobbing Анимация "поворота" оружия
 settings.viewmodel.leaning Анимация наклона оружия
 settings.viewmodel.show.primary Показывать Основное оружие
 settings.viewmodel.show.secondary Показывать Вторичное оружие
@@ -358,7 +358,7 @@ settings.viewmodel.weapSwapY Уровень переключения оружи�
 settings.viewmodel.weapReloadY Уровень перезарядки оружия по оси Y
 settings.viewmodel.yOffADS Смещение оружия по оси Y при прицеливании
 settings.viewmodel.adsFovMlt Степень глубины прицеливания
-settings.viewmodel.toggleADS Toggle Weapon ADS
+settings.viewmodel.toggleADS Переключать оружие в прицеле
 settings.editing.header Редактирование
 settings.editing.health.high Цвет большого количества здоровья
 settings.editing.health.low Цвет малого количества здоровья
@@ -378,7 +378,7 @@ settings.editing.progOffX Смещение Полосы игрового про�
 settings.editing.progOffY Смещение Полосы игрового прогресса по оси Y
 settings.editing.progRot Угол поворота Полосы игрового прогресса
 settings.editing.progm.color Цвет Полосы заряда
-settings.editing.progmo.color Overcharge Color
+settings.editing.progmo.color Цвет перегрузки
 settings.editing.progm.opacity Непрозрачность Полосы заряда
 settings.editing.progm.scale Масштаб Полосы заряда
 settings.editing.progm.shadow Тень Полосы заряда
@@ -393,8 +393,8 @@ settings.editing.vignette Виньетка
 settings.editing.feedLimit Лимит Уведомлений об убийствах
 settings.editing.depth Карта Глубины
 settings.editing.green Хромакей
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.trailcol Цвет пуль
+settings.editing.ropecol Цвет веревки кошки
 settings.editing.tracercol Пулевой Трассер
 settings.editing.tracer Пулевой Трассер
 settings.editing.tracer.offset Смещение Пулевого Трассера
@@ -434,17 +434,17 @@ settings.mods.damage.paste URL Изображения Оверлея при по
 settings.mods.overlay Изображение Оверлея Игры
 settings.mods.overlay.paste URL Изображения Оверлея Игры
 settings.social.region Статистика Региона
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg Фоновое изображение
+settings.social.bg.paste URL фонового изображения
 windows.settings.header Настройки Игры
-windows.mail.header Krunker Mail
+windows.mail.header Игровая почта
 windows.servers.header Серверы
 windows.servers.none Не найдено игр, к которым можно присоединиться...
 windows.servers.host + Создать Игру
 windows.servers.hide Скрыть Заполненные
 windows.servers.priority Приоритет по Региону
 windows.servers.online {0} в Игре
-windows.servers.social {0} в Social
+windows.servers.social {0} в Магазине
 windows.loadout.header Изменить Снаряжение
 windows.loadout.class Класс Оружия
 windows.loadout.primary Основное Оружие
@@ -505,30 +505,30 @@ windows.controls.interactSec Вторичное Взаимодействие
 windows.controls.confirm Подтвердить Взаимодействие
 windows.controls.drop Выбросить
 windows.controls.wepVis Переключить Видимость Оружия
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.kickVoteY Выгнать [Yes]
+windows.controls.kickVoteN Не выгонять [No]
+windows.controls.kpdVoteY вызвать полицию [Yes]
+windows.controls.kpdVoteN не вызывать полицию [No]
+windows.controls.specFree Постоянно свободная камера
+windows.controls.specObj Постоянно свободная камера обьекта
+windows.controls.specFirst Постоянно от первого лица
+windows.controls.specNames Постоянное отображение имен
+windows.controls.specFocus Постоянное фокусирование игрока
+windows.controls.hidePlayers Спрятать игроков
 windows.controls.streak0 Серия 1
 windows.controls.streak1 Серия 2
 windows.controls.streak2 Серия 3
 windows.controls.streak3 Серия 4
 windows.controls.streak4 Серия 5
-windows.controls.prop Select Prop (Hold)
+windows.controls.prop Выбрать опору (Удерживать)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Режим Бога
 windows.controls.premium2 Убить
 windows.controls.premium3 Поражение
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
+windows.controls.dev0 Developer Бинд 1
+windows.controls.dev1 Developer Бинд 2
+windows.controls.dev2 Developer Бинд 3
+windows.controls.dev3 Developer Бинд 4
 windows.controls.reset Сбросить Стартовую Позицию (Гонки & Паркур)
 windows.controls.pretend Скрыть Игру
 windows.host.header Создание Пользовательской Игры
@@ -619,8 +619,8 @@ windows.publish.mod.update Опубликовать/Обновить
 windows.publish.mod.login чтобы создавать и загружать модификации!
 windows.secondary.header Выберите вторичное оружие
 windows.secondary.unlocked Разблокировано
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.customOnly Только кастомные
+windows.secondary.premiumOnly Только премиальные
 windows.secondary.req Требуется уровень {0}
 windows.advertise.header Объявление
 windows.support.header Поддержка
