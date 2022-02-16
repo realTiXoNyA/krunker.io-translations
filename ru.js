@@ -61,7 +61,7 @@ generic.accuracy Точность
 player.waiting Ожидание игроков
 player.died Вы умерли
 player.killed Убиты
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} Совершил {1} убийств подряд
 player.inactive Удален за неактивность
 player.disconnect Отключен от сервера
 timer.end Следующий раунд через {0}
@@ -84,8 +84,8 @@ settings.none Настройки не найдены
 settings.backup Резервные настройки
 settings.controls.change Управление
 settings.controls.press Нажмите любую клавишу
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard Тип триггера в таблице лидеров игры
+settings.controls.voicechat Voicechat Тип триггера
 settings.local.header Локализация <span id="requiresRestart"><span style="color: #eb5656">*</span> требует перезагрузки</span>
 settings.local.region Регион по умолчанию
 settings.local.lang Язык
@@ -93,8 +93,8 @@ settings.network.header Настройки сети
 settings.network.netRerouting Автоматическая маршрутизация (Влияет на пинг)
 settings.network.netRate Частота обновления (Hz)
 settings.network.lagComp Компенсация задержки
-settings.network.optNet Optimized Networking
-settings.network.quickplay Force Quickplay
+settings.network.optNet Оптимизированная сеть
+settings.network.quickplay Принудительная быстрая игра
 settings.popup.header Всплывающие окна
 settings.experimental.header Экспериментальные
 settings.experimental.holiday Праздничный эффект
@@ -649,12 +649,12 @@ windows.secondary.unlocked Разблокировано
 windows.secondary.customOnly Только для Пользовательских Игр
 windows.secondary.premiumOnly Только для Премиум-пользователей
 windows.secondary.req Требуется уровень {0}
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.unlocked Разблокированные
+windows.skins.customOnly Только кастомные
+windows.skins.premiumOnly Только премиум
+windows.skins.classOnly Необходимо {0}
+windows.skins.req Необходимый уровень {0}
+windows.skins.default Стандартный скин
 windows.advertise.header Объявление
 windows.support.header Поддержка
 windows.players.header Список игроков
@@ -745,7 +745,7 @@ server.config.forceDefault Принудительно установить на�
 server.config.warmupTime Время разминки
 server.config.gamRounds Раунды
 server.config.objtvTime Время длительности точки
-server.config.forceSpawn Время автоматического возрождения
+server.config.forceSpawn Время автоматического возрождения	
 server.config.intermTmr Перерыв (сек)
 server.config.scoreLimit Предел очков
 server.config.keepTScore Сохранить счет команды
@@ -920,63 +920,63 @@ chall.name.dmg Нанесено {0} урона {1}
 chall.name.bzk Сделано {0} обрывов серий убийств {1}
 chall.name.cc Сделано {0} убийств при смерти {1}
 chall.name.rk Сделано {0} отмщений {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+event.doubleXP В этом матче двойной опыт для классов
+ranked.join Joined Ranked Match. Отказ от матча приведет к временному бану
+ranked.progress Игра в прогрессе
+ranked.team Пожалуйста присоединитесь к команде
+ranked.switch Невозможно сменить класс, пока идет раунд
+ranked.spectate Режим наблюдения отключен в ранкеде
+ranked.login Залогиньтесь для возрождения
+ranked.sync Нет данных синхронизации
+ranked.team.spawn Пожалуйста присоединитесь к командному возрождению
+ranked.class.spawn Пожалуйста выберите класс для возрождения
+modes.round.win Ваша команда выиграла раунд
+modes.round.loss Ваша команда проиграла раунд
+modes.round.switch Смена сторон. Подготовьтесь к следующему раунду
+modes.trade.success Обмен совершен
+modes.prophunt.limit [Prop Hunt] У вас закончились переключатели
+modes.prophunt.left [Prop Hunt] Оставшееся количество переключателей {0} 
+modes.prophunt.rotation.on [Prop Hunt] Вращение включено
+modes.prophunt.rotation.off [Prop Hunt] Вращение отключено
+modes.prophunt.rotation.reset [Prop Hunt] Вращение сброшено.
+commands.login Залогиньтесь для использования этой команды
+commands.connected {0} присоединилось, {1} в меню
+commands.host {0} текущий хост.
+commands.noclip.on Неосязаемость - Включена
+commands.noclip.off Неосязаемость - Выключена
+commands.god.on Режим Бога - Включен
+commands.god.off Режим Бога - Выключен
+commands.god.on.other Режим Бога – Включен для {0}
+commands.god.off.other Режим Бога – Выключен для {0}
+commands.smite.on Убийство одной пулей - Включено
+commands.smite.off Убийство одной пулей - Выключено
+commands.smite.on.other Убийство одной пулей – Включено для {0}
+commands.smite.off.other Убийство одной пулей – Выключено для {0}
+commands.perk Дано {0} {1}
+commands.maxperk Дано {0} МАКС {1}
+commands.unlimited.on Бесконечные патроны - Включены
+commands.unlimited.off Бесконечные патроны - Отключены
+commands.unlimited.on.other Бесконечные патроны – Включены для {0}
+commands.unlimited.off.other Бесконечные патроны – Отключены для {0}
+commands.spraybypass.on Бесконечные спреи - Включены
+commands.spraybypass.off Бесконечные спреи - Отключены
+commands.spraybypass.on.other Бесконечные спреи – Включены для {0}
+commands.spraybypass.off.other Бесконечные спреи – Отключены для {0}
+commands.suspect.invalid Недоступная информация о подозреваемом
+commands.suspect.menu Подозреваемый в меню
+commands.suspect.left Подозреваемый покинул игру
+commands.suspect.found Подозреваемый обнаружен. Наблюдение: {0}, Возрождение: {1}, Имя: {2}
+commands.forfeit.next Должен сыграть хотя-бы один раунд
+commands.forfeit.wait Подождите пока не начнется матч
+commands.forfeit.later Пожалуйста попробуйте снова через несколько секунд
+commands.forfeit.voted Вы уже проголосовали.
+commands.forfeit.limit Вы можете начать только одно голосование за раунд
+commands.forfeit.ended Аннулирование игры
+commands.forfeit.ended.other Аннулирование другой команды
+server.message.join {0} присоединилось к игре
+server.message.left {0} покинули игру
+server.message.kicked {0} были исключены
+server.message.banned {0} были забанены
+server.message.votekicked {0} были исключены голосованием
+server.message.arrested {0} были арестованы K.P.D
 `;
